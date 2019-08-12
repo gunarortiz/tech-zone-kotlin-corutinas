@@ -55,14 +55,14 @@
 \cfoot{\thepage}
 \pagestyle{fancy} 
 
-\title{C\'odigo as\'incrono con Co-rutinas de Kotlin en Android
+\title{C\'odigo as\'incrono con corrutinas de Kotlin en Android
 }
 
 %%% first author
 \author{Gunar Percy Ortiz Chura
 	\affiliation{
 		Universidad Mayor de San Andr\'es\\
-		Facultad de Ciencias Pur as y Naturales\\
+		Facultad de Ciencias Puras y Naturales\\
 		Carrera de Inform\'atica\\
 		La Paz, Murillo\\
 		Bolivia\\
@@ -98,27 +98,27 @@ Corrutinas, Asíncrono, Kotlin, Apps, Android.
 
 	
 \end{abstract}
-\section{INTRODUCCION}
+\section{INTRODUCCIÓN}
 
 
 Al momento de desarrollar aplicaciones Android con Kotlin estamos acostumbrados a programar de manera secuencial, ya que que la arquitectura de dichas aplicaciones así lo requieren cuando de cosas básicas se trata (realizar cálculos simples, acceder a los sensores, dibujar la UI, etc). Avanzando un poco en complejidad nos topamos con que muchos de los datos que necesita nuestra aplicación para funcionar no están disponibles inmediatamente, ya sea porque se necesita realizar un cálculo previo, o estos se encuentran accesibles a través de la red. \linebreak\linebreak
-Aquí es donde un programador acostumbrado a llevar el desarrollo de una app de manera secuencial debe adaptarse y armarse de herramientas para trabajar de esta forma. La opción más usada son los callbacks, que no son más que funciones que son llamadas cuando los datos están listos, existen muchos problemas asociados a esta técnica como ser: dificultan la legibilidad del código, dificultan debuggear la aplicación, el mal manejo de estos puede provocar el callback hell\footnote{El Callback Hell se produce cuando encadenamos muchas operaciones asíncronas seguidas.}.\linebreak\linebreak
+Aquí es donde un programador acostumbrado a llevar el desarrollo de una app de manera secuencial debe adaptarse y armarse de herramientas para trabajar de esta forma. La opción más usada son los callbacks, que no son más que funciones que son llamadas cuando los datos están listos, existen muchos problemas asociados a esta técnica como ser: dificultad en la legibilidad del código, dificultad en debuggear la aplicación, el mal manejo de estos puede provocar el callback hell\footnote{El Callback Hell se produce cuando encadenamos muchas operaciones asíncronas seguidas.}.\linebreak\linebreak
 Otra técnica usada son los Threads, los cuales exigen un conocimiento más profundo de cómo se llevan a cabo los procesos en el SO de Android, la principal desventaja de estos es que generalmente un Threads suele ser mucho para una tarea sencilla o muy poco para una tarea compleja, haciendo que el diseño óptimo de estos sea una etapa muy importante, morosa y complicada. El equipo de Kotlin implementó las corrutinas pensando en todos los problemas que significaba tener que trabajar con procesos asíncronos.\linebreak\linebreak
 Las corrutinas son muy fáciles de usar gracias a su sintaxis, lo que facilita la lectura y mantenimiento del código, estas vuelven el código asíncrono en un código secuencial pausando la ejecución del programa en lugares específicos hasta obtener los resultados, además están optimizados lo suficiente como para no considerar el uso de los Threads.
 Este documento aborda la forma en la que se trabaja con las corrutinas y las razones por las cuales son la mejor opción para lidiar con el código asíncrono.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{¿QUE ES UNA CORRUTINA?}
+\section{¿QUÉ ES UNA CORRUTINA?}
 
-Podemos encontrar dichas co-rutinas en kotlinx.coroutines que es  una biblioteca desarrollada por JetBrains. Contiene una serie de  co-rutinas primitivas ya habilitadas y de alto nivel.[1]\linebreak\linebreak
+Podemos encontrar dichas corrutinas en kotlinx.coroutines que es  una biblioteca desarrollada por JetBrains. Contiene una serie de  corrutinas primitivas ya habilitadas y de alto nivel.[1]\linebreak\linebreak
 En esencia una corrutina en un hilo liviano [2] que en lugar de bloquear el hilo principal, un proceso o la ejecución de un programa, permite que  este se siga ejecutando; también proporciona una abstracción más segura y menos propensa a errores para operaciones asíncronas. \linebreak\linebreak
-Las alternativas a las co-rutinas llegan a ser: Threads, Callbacks, RX (reactive, extensions), futures y promises.
+Las alternativas a las corrutinas llegan a ser: Threads, Callbacks, RX (reactive, extensions), futures y promises.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{CREACIÓN DE UNA RUTINA}
-Para utilizar las co-rutinas se debe agregar una dependencia en el \verb+kotlinx-coroutines-core+.\linebreak\linebreak
+Para utilizar las corrutinas se debe agregar una dependencia en el \verb+kotlinx-coroutines-core+.\linebreak\linebreak
 \textbf{%
 	\large {Maven}}
 \linebreak
@@ -196,7 +196,7 @@ kotlin("jvm") version "1.3.41"
 }
 \end{verbatim}
 
-	Las co-rutinas se lanzan con el coroutine builder de lanzamiento en un contexto de algunos  CoroutineScope.\linebreak
+	Las corrutinas se lanzan con el coroutine builder de lanzamiento en un contexto de algunos  CoroutineScope.\linebreak
 \smallbreak
 \textbf{%
 	\large {Ejemplo}}
@@ -226,13 +226,13 @@ Aquí estamos lanzando una nueva rutina en el GlobalScope , lo que significa que
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{CANCELACIÓN DE UNA RUTINA}
 
-Existe la posibilidad de que cuando una corrutina de larga ejecución se esté llevando a cabo el usuario deje la pantalla o que ya no requiera los resultados de este proceso, para cancelar un corrutina disponemos del método \verb+cancel()+ [4]. Este método cancelara la corrutina sin importar el estado en el que se encuentre. Para cancelar el proceso y esperar su finalización tenemos el método \verb+cancelAndJoin()+.\linebreak\linebreak
+Existe la posibilidad de que cuando una corrutina de larga ejecución se esté llevando a cabo el usuario deje la pantalla o que ya no requiera los resultados de este proceso, para cancelar un corrutina disponemos del método \verb+cancel()+ [4]. Este método cancelará la corrutina sin importar el estado en el que se encuentre. Para cancelar el proceso y esperar su finalización tenemos el método \verb+cancelAndJoin()+.\linebreak\linebreak
 Es importante conocer el ciclo de vida de los activities en Android, ya que el SO suele impedir que muchas tareas se ejecuten de manera continua e ilimitada, a menos que se lo hagamos saber de qué manera debe ejecutar estos procesos y bajo qué circunstancias, pasan a ser totalmente administrados por el SO.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{TIEMPO DE ESPERA}
 
-Podemos definir un tiempo de espera para controlar de alguna manera a las corrutinas, si esta excede el tiempo que nosotros definimos lanzara la excepcion \verb+TimeoutCancellationException+ [4].
+Podemos definir un tiempo de espera para controlar de alguna manera a las corrutinas, si esta excede el tiempo que nosotros definimos lanzará la excepcion \verb+TimeoutCancellationException+ [4].
 
 \begin{verbatim}
 withTimeout(1300L) {
@@ -288,7 +288,7 @@ println("The answer is ${uno.await()
 
 cuando se requieren los datos para imprimirlos en pantalla el método \verb+await+ hace que de ambas rutinas se inicien simultáneamente.
 
-\subsection{INVOCAR UNA FUNCIÓN ASÍNCRONO}
+\subsection{INVOCAR UNA FUNCIÓN ASÍNCRONA}
 
 También tenemos la posibilidad de iniciar una corrutina antes de necesitar los datos, para eso hacemos uso del método start. Ademas tenemos que pasar al constructor de \verb+async+[5] un parámetro con el valor de \verb+start = CoroutineStart.LAZY+
 
@@ -342,10 +342,12 @@ Agradezco profundamente a la organización del evento “TechZone 2019” por da
 % used for an ASME paper is asmems4.bst.
 \bibliographystyle{asmems4}
 
+
 % Here's where you specify the bibliography database file.
 % The full file name of the bibliography database for this
 % article is asme2e.bib. The name for your database is up
 % to you.
 \bibliography{asme2e}
+
 
 \end{document}

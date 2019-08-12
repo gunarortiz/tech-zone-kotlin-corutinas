@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.9)  12 AUG 2019 13:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.9)  12 AUG 2019 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -362,6 +362,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--109
  []
 
 
+Underfull \hbox (badness 2744) in paragraph at lines 104--109
+\OT1/ptm/m/n/10 tarse y ar-marse de her-ramien-tas para tra-ba-jar de esta
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 104--109
+\OT1/ptm/m/n/10 son m[]as que fun-ciones que son lla-madas cuando los
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 104--109
+\OT1/ptm/m/n/10 datos est[]an lis-tos, ex-is-ten mu-chos prob-le-mas aso-ci-a-
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 104--109
+\OT1/ptm/m/n/10 dos a esta t[]ecnica como ser: di-fi-cul-tad en la leg-i-bil-i-
+
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 104--109
+\OT1/ptm/m/n/10 dad del c[]odigo, di-fi-cul-tad en de-buggear la apli-caci[]on,
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 104--109
 
  []
@@ -396,7 +423,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
 
 Underfull \hbox (badness 1275) in paragraph at lines 114--117
-\OT1/ptm/m/n/10 Las al-ter-na-ti-vas a las co-rutinas lle-gan a ser: Threads,
+\OT1/ptm/m/n/10 Las al-ter-na-ti-vas a las cor-ruti-nas lle-gan a ser: Threads,
+
  []
 
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 121.
@@ -405,7 +433,7 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 121.
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 Underfull \hbox (badness 5036) in paragraph at lines 121--126
-\OT1/ptm/m/n/10 Para uti-lizar las co-rutinas se debe agre-gar una de-
+\OT1/ptm/m/n/10 Para uti-lizar las cor-ruti-nas se debe agre-gar una de-
  []
 
 
@@ -469,7 +497,7 @@ Underfull \hbox (badness 7486) in paragraph at lines 235--236
 
 
 Underfull \hbox (badness 2065) in paragraph at lines 235--236
-\OT1/ptm/m/n/10 el tiempo que nosotros defin-i-mos lan-zara la ex-cep-cion
+\OT1/ptm/m/n/10 el tiempo que nosotros defin-i-mos lan-zar[]a la ex-cep-cion
  []
 
 
@@ -621,20 +649,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
 ) [3] (./asme2ej.aux) ) 
 Here is how much of TeX's memory you used:
- 2720 strings out of 492616
- 38315 string characters out of 6129482
- 116606 words of memory out of 5000000
- 6586 multiletter control sequences out of 15000+600000
+ 2721 strings out of 492616
+ 38323 string characters out of 6129482
+ 116605 words of memory out of 5000000
+ 6587 multiletter control sequences out of 15000+600000
  36706 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,43p,629b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,43p,635b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base
 /8r.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/l
 ocal/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on asme2ej.pdf (3 pages, 75623 bytes).
+Output written on asme2ej.pdf (3 pages, 75639 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
