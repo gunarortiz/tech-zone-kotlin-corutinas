@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex asme2ej"] 1565584079 "asme2ej.aux" "asme2ej.bbl" "asme2ej" 1565584080
+["bibtex asme2ej"] 1565595900 "asme2ej.aux" "asme2ej.bbl" "asme2ej" 1565595901
   "./asmems4.bst" 1357247434 25583 1f5756761e817b92e0a24aa53bf459b4 ""
   "asme2e.bib" 0 -1 0 ""
-  "asme2ej.aux" 1565584079 3452 e61b1bd7db2f5cf22c46f2716f8b8530 "pdflatex"
+  "asme2ej.aux" 1565595901 3418 8dab12b685e545591e3536ef5d4d0ddf "pdflatex"
   (generated)
   "asme2ej.blg"
   "asme2ej.bbl"
-["pdflatex"] 1565584079 "/Users/gunarortiz/Downloads/journal-1.0 2/asme2ej.tex" "/Users/gunarortiz/Downloads/journal-1.0 2/asme2ej.pdf" "asme2ej" 1565584080
-  "/Users/gunarortiz/Downloads/journal-1.0 2/asme2ej.aux" 1565584079 3452 e61b1bd7db2f5cf22c46f2716f8b8530 ""
-  "/Users/gunarortiz/Downloads/journal-1.0 2/asme2ej.tex" 1565584077 21662 da2b9cf893667fd3157a26c79a47d4f8 ""
+["pdflatex"] 1565595900 "/Users/gunarortiz/Downloads/journal-1.0 2/asme2ej.tex" "/Users/gunarortiz/Downloads/journal-1.0 2/asme2ej.pdf" "asme2ej" 1565595901
+  "/Users/gunarortiz/Downloads/journal-1.0 2/asme2ej.aux" 1565595901 3418 8dab12b685e545591e3536ef5d4d0ddf ""
+  "/Users/gunarortiz/Downloads/journal-1.0 2/asme2ej.tex" 1565595899 19228 61e426f96cff814d809e08a18f3561b6 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -37,7 +37,6 @@
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb" 1136849748 45758 19968a0990191524e34e1994d4a31cb6 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb" 1136849748 35941 f27169cc74234d5bd5e4cca5abafaabb ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb" 1136849748 44648 23115b2a545ebfe2c526c3ca99db8b95 ""
-  "/usr/local/texlive/2019/texmf-dist/fonts/type1/urw/symbol/usyr.pfb" 1136849748 33709 b09d2e140b7e807d3a97058263ab6693 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1136849748 44729 811d6c62865936705a31c797a1d5dada ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1136849748 46026 6dab18b61c907687b520c72847215a68 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb" 1136849748 45458 a3faba884469519614ca56ba5f6b1de1 ""
@@ -91,13 +90,13 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1565325827 4259635 817ae435b572f114f1ab1bcde288a91d ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "asme2ej.aux" 1565584079 3452 e61b1bd7db2f5cf22c46f2716f8b8530 "pdflatex"
-  "asme2ej.bbl" 1565583394 0 d41d8cd98f00b204e9800998ecf8427e "bibtex asme2ej"
+  "asme2ej.aux" 1565595901 3418 8dab12b685e545591e3536ef5d4d0ddf "pdflatex"
+  "asme2ej.bbl" 1565595882 49 0eba253fc001332e731e8aba3f23127b "bibtex asme2ej"
   "asme2ej.cls" 1565583220 47785 2076a6ee1f0650ec418fe6553b942d9c ""
-  "asme2ej.tex" 1565584077 21662 da2b9cf893667fd3157a26c79a47d4f8 ""
+  "asme2ej.tex" 1565595899 19228 61e426f96cff814d809e08a18f3561b6 ""
   (generated)
-  "asme2ej.log"
-  "asme2ej.aux"
   "/Users/gunarortiz/Downloads/journal-1.0 2/asme2ej.log"
   "asme2ej.pdf"
+  "asme2ej.log"
   "/Users/gunarortiz/Downloads/journal-1.0 2/asme2ej.pdf"
+  "asme2ej.aux"

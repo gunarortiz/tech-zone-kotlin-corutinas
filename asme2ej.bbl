@@ -1,13 +1,12 @@
 \begin{thebibliography}{10}
 
 \bibitem{one}
-kotlinx.coroutines -
-\newblock https://github.com/kotlin/kotlinx.coroutines/blob/master/
-README.md#using-in-your-projects.
+kotlinx.coroutines -\linebreak
+\newblock https://github.com/kotlin/kotlinx.coroutines/blob/master/\linebreak README.md#using-in-your-projects.
 
 \bibitem{two}
-Coroutines Guide -
-\newblock https://kotlinlang.org/docs/reference/coroutines/coroutines-guide.html
+Coroutines Guide -\linebreak
+\newblock https://kotlinlang.org/docs/reference/coroutines/\linebreak coroutines-guide.html
 
 \bibitem{three}
 Coroutine Basics -
@@ -21,10 +20,9 @@ Cancellation and Timeouts -
 \bibitem{five}
 Composing Suspending Functions -
 \newblock https://kotlinlang.org/docs/reference/coroutines/composing-suspending-functions.html
-README.md#using-in-your-projects.
 
 \bibitem{six}
-Repository Kotlin -
-\newblock https://https://github.com/Kotlin/kotlinx.coroutines
+Repository Kotlin -\linebreak
+\newblock https://https://github.com/Kotlin/\linebreak kotlinx.coroutines
 
 \end{thebibliography}

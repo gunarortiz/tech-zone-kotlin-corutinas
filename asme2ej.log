@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.9)  12 AUG 2019 00:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.9)  12 AUG 2019 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,68 +326,318 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 102.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+
+Underfull \hbox (badness 5105) in paragraph at lines 104--109
+\OT1/ptm/m/n/10 Al mo-mento de de-sar-rol-lar apli-ca-ciones An-droid con
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 104--109
+\OT1/ptm/m/n/10 Kotlin es-ta-mos acos-tum-bra-dos a pro-gra-mar de man-era
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 104--109
+\OT1/ptm/m/n/10 (re-alizar c[]alculos sim-ples, ac-ceder a los sen-sores, dibu-
+
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 104--109
+\OT1/ptm/m/n/10 apli-caci[]on para fun-cionar no est[]an disponibles in-medi-
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 104--109
+\OT1/ptm/m/n/10 ata-mente, ya sea porque se nece-sita re-alizar un c[]alculo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
+
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 104--109
+\OT1/ptm/m/n/10 Otra t[]ecnica us-ada son los Threads, los cuales ex-i-gen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
+
+ []
+
+
+Overfull \vbox (8.58456pt too high) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
+
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 114--117
+\OT1/ptm/m/n/10 En es-en-cia una cor-rutina en un hilo li-viano [2] que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
+
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 114--117
+\OT1/ptm/m/n/10 Las al-ter-na-ti-vas a las co-rutinas lle-gan a ser: Threads,
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 121.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 140.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.09996> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
- [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-] [2] (./asme2ej.bbl
-Underfull \hbox (badness 2600) in paragraph at lines 4--8
-[]\OT1/ptm/m/n/10 ASME, 2003.  \OT1/ptm/m/it/10 ASME Man-ual MS-4, An ASME
+Underfull \hbox (badness 5036) in paragraph at lines 121--126
+\OT1/ptm/m/n/10 Para uti-lizar las co-rutinas se debe agre-gar una de-
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 4--8
-\OT1/ptm/m/it/10 Pa-per\OT1/ptm/m/n/10 , lat-est ed.  The Amer-i-can So-ci-ety 
-of Me-
+Underfull \hbox (badness 10000) in paragraph at lines 121--126
+\OT1/ptm/m/n/10 pen-den-cia en el [][]\OT1/pcr/m/n/10 kotlinx-coroutines-core[]
+\OT1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 4--8
-\OT1/ptm/m/n/10 chan-i-cal En-gi-neers, New York.  See also URL
+Underfull \hbox (badness 10000) in paragraph at lines 121--126
+
  []
 
-)
-Underfull \vbox (badness 3668) has occurred while \output is active []
 
- [3]
-[4
+Underfull \hbox (badness 10000) in paragraph at lines 121--126
+\OT1/ptm/b/n/12 Maven
+ []
 
-] (./asme2ej.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--126
+\OT1/ptm/m/n/10 Agregue de-pen-den-cias (tambi[]en puede agre-gar otros
+ []
+
+[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 147--150
+[]\OT1/ptm/b/n/12 Gradle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--150
+\OT1/ptm/m/n/10 Agregue de-pen-den-cias (tambi[]en puede agre-gar otros
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 199--200
+\OT1/ptm/m/n/10 za-miento en un con-texto de al-gunos Corou-ti-neScope.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
+
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 235--236
+\OT1/ptm/m/n/10 Podemos definir un tiempo de es-pera para con-tro-lar
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 235--236
+\OT1/ptm/m/n/10 de al-guna man-era a las cor-ruti-nas, si esta ex-cede
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 235--236
+\OT1/ptm/m/n/10 el tiempo que nosotros defin-i-mos lan-zara la ex-cep-cion
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 250--250
+|[]\OT1/ptm/b/n/13 COMPONER FUN-CIONES DE SUS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
+\OT1/ptm/m/n/10 La premisa del doc-u-mento es que las cor-ruti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
+\OT1/ptm/m/n/10 nas nos ayu-dan a tratar el c[]odigo as[]^^Pncrono de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
+\OT1/ptm/m/n/10 man-era se-cuen-cial, pero ?`c[]omo lo-gramos esto?.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
+
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 252--254
+\OT1/ptm/m/n/10 Primero debe-mos definir una funci[]on de tipo sus-pend
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 275--276
+[]\OT1/ptm/m/n/10 cuando el pro-grama est[]a en la l[]^^Pnea donde se de-fine
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+|[]\OT1/ptm/b/n/13 USO SI-MULT[]ANEO UTI-LIZANDO
+ []
+
+
+Overfull \hbox (6.42717pt too wide) in paragraph at lines 287--287
+[]\OT1/pcr/m/n/10 val uno = async { doSomethingUsefulOne() }[] 
+ []
+
+
+Overfull \hbox (6.42717pt too wide) in paragraph at lines 287--287
+[]\OT1/pcr/m/n/10 val dos = async { doSomethingUsefulTwo() }[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+|[]\OT1/ptm/b/n/13 INVOCAR UNA FUNCI[]ON
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 293--294
+\OT1/ptm/m/n/10 Tambi[]en ten-emos la posi-bil-i-dad de ini-ciar una cor-rutina
+
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 293--294
+\OT1/ptm/m/n/10 antes de nece-si-tar los datos, para eso hace-mos uso
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 293--294
+\OT1/ptm/m/n/10 del m[]etodo start. Ade-mas ten-emos que pasar al con-
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 293--294
+\OT1/ptm/m/n/10 struc-tor de [][]\OT1/pcr/m/n/10 async[]\OT1/ptm/m/n/10 [5] un 
+par[]ametro con el valor de
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 322--323
+\OT1/ptm/m/n/10 Agradezco pro-fun-da-mente a la or-ga-ni-zaci[]on del evento
+ []
+
+(./asme2ej.bbl
+! You can't use `macro parameter character #' in horizontal mode.
+l.5 ...oroutines/blob/master/\linebreak README.md#
+                                                  using-in-your-projects.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+[]\OT1/ptm/m/n/10 kotlinx.coroutines -
+ []
+
+
+Overfull \hbox (2.73389pt too wide) in paragraph at lines 4--6
+\OT1/ptm/m/n/10 https://github.com/kotlin/kotlinx.coroutines/blob/master/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+[]\OT1/ptm/m/n/10 Coroutines Guide -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+\OT1/ptm/m/n/10 https://kotlinlang.org/docs/reference/coroutines/
+ []
+
+
+Overfull \hbox (13.96364pt too wide) in paragraph at lines 14--15
+[] \OT1/ptm/m/n/10 https://kotlinlang.org/docs/reference/coroutines/basics.html
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+[]\OT1/ptm/m/n/10 Cancellation and Time-outs -
+ []
+
+
+Overfull \hbox (19.9337pt too wide) in paragraph at lines 17--19
+\OT1/ptm/m/n/10 https://kotlinlang.org/docs/reference/coroutines/cancellation-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+[]\OT1/ptm/m/n/10 Composing Sus-pend-ing Func-tions -
+ []
+
+
+Overfull \hbox (15.50404pt too wide) in paragraph at lines 21--23
+\OT1/ptm/m/n/10 https://kotlinlang.org/docs/reference/coroutines/composing-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+[]\OT1/ptm/m/n/10 Repository Kotlin -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+\OT1/ptm/m/n/10 https://https://github.com/Kotlin/
+ []
+
+) [3] (./asme2ej.aux) ) 
 Here is how much of TeX's memory you used:
- 2771 strings out of 492616
- 38975 string characters out of 6129482
- 119699 words of memory out of 5000000
- 6625 multiletter control sequences out of 15000+600000
- 53354 words of font info for 104 fonts, out of 8000000 for 9000
+ 2720 strings out of 492616
+ 38315 string characters out of 6129482
+ 116606 words of memory out of 5000000
+ 6586 multiletter control sequences out of 15000+600000
+ 36706 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,43p,1033b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.
-enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cme
-x9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/loca
-l/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fo
-nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/
-urw/times/utmri8a.pfb>
-Output written on asme2ej.pdf (4 pages, 108053 bytes).
+ 41i,10n,43p,629b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base
+/8r.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on asme2ej.pdf (3 pages, 75623 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
