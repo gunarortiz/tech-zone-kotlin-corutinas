@@ -1,29 +1,30 @@
 \begin{thebibliography}{10}
 
-\bibitem{art}
+\bibitem{one}
 kotlinx.coroutines -
-
 \newblock https://github.com/kotlin/kotlinx.coroutines/blob/master/
 README.md#using-in-your-projects.
 
-\bibitem{asmemanual}
+\bibitem{two}
 Coroutines Guide -
-
 \newblock https://kotlinlang.org/docs/reference/coroutines/coroutines-guide.html
 
-\bibitem{asmemanual}
+\bibitem{three}
 Coroutine Basics -
 
 \newblock https://kotlinlang.org/docs/reference/coroutines/basics.html
 
-\bibitem{asmemanual}
+\bibitem{four}
 Cancellation and Timeouts -
 \newblock https://kotlinlang.org/docs/reference/coroutines/cancellation-and-timeouts.html
 
-\bibitem{asmemanual}
+\bibitem{five}
 Composing Suspending Functions -
 \newblock https://kotlinlang.org/docs/reference/coroutines/composing-suspending-functions.html
 README.md#using-in-your-projects.
 
+\bibitem{six}
+Repository Kotlin -
+\newblock https://https://github.com/Kotlin/kotlinx.coroutines
 
 \end{thebibliography}
