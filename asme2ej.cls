@@ -351,8 +351,8 @@
 \setlength{\marginparwidth}{0pt}
 \setlength{\marginparsep}{11pt}
 \setlength{\marginparpush}{5pt}
-%\setlength{\columnsep}{.375in}
-\setlength{\columnsep}{.17in}
+\setlength{\columnsep}{.33in}
+%\setlength{\columnsep}{.17in}
 \setlength{\columnseprule}{0pt}
 \setlength{\headheight}{10pt}
 \setlength{\headsep}{18pt}
@@ -845,7 +845,7 @@
   \newpage
   \null\vspace*{-26pt}             % Took out ASMElogo provision
    \vbox{\hbox to \textwidth{\begin{tabular}{@{}c@{\hskip3pc}}
-   \hbox to 46pt{\vbox to 46pt{\vss\hsize46pt\vss}}\end{tabular}\hss
+   \hbox to 46pt{\vbox to 0pt{\vss\hsize46pt\vss}}\end{tabular}\hss
   \vbox{\hsize37pc\scriptsize\sf\vskip\baselineskip%
   \bannerfnt\begin{flushright}% added flushright to properly wrap long conference names
   %\hfill Proceedings of \@confshortname\par
@@ -1358,8 +1358,8 @@
 \ps@myheadings
 \pagenumbering{arabic}
 \if@twocolumn\twocolumn\sloppy\flushbottom\else\onecolumn\fi
-\advance\hoffset-7pc
-\advance\voffset-10pc
+\advance\hoffset-0pc
+\advance\voffset-0pc
 %
 %
 \endinput
